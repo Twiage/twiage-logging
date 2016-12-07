@@ -1,0 +1,14 @@
+{
+  "twiage": {
+    "logging": {
+      "namespace": "twiage-logging",
+      "meta": {},
+      "headers": [],
+      "transports": [
+        {
+          "type": "Console"
+        }
+      ]
+    }
+  }
+}
