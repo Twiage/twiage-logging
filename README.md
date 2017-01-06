@@ -4,7 +4,7 @@ Twiage wrapper around winston for async logging in javascript projects.
 
 ## API
 
-If you use _twiage-logging_ without _twiage-server_ you have to add the logging middleware to your express app on you own.
+If you use _twiage-logging_ without _twiage-server_ you have to add the logging middleware to your express app on your own.
 
     const LoggingMiddleware = require('twiage-logging').Middleware;
 
@@ -29,6 +29,7 @@ You can provide a meta object that will be logged with the accessLogMessage.
 ### Config
 
 - twiage:logging:namespace - The logging namespace. (default: "twiage-logging")
+- twiage:logging:exitOnError - Should the process exit when an error is logged. (default: true)
 - twiage:logging:transports - List of winston transports with their type and options. (default: "Console")
 - twiage:logging:meta (optional) - Object of additional key-value pairs for each log entry.
 - twiage:logging:headers (optional) - List of HTTP headers which values should be logged with each log entry.
