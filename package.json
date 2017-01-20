@@ -14,7 +14,7 @@
     "continuation-local-storage": "3.2.0",
     "global-request-logger": "^0.1.1",
     "stack-trace": "0.0.9",
-    "twiage-config": "git+ssh://git@github.com/twiage/twiage-config",
+    "twiage-config": "git+https://git:7bb76489924e6dfe57b3a6d5c652d699910c0e4a@github.com/twiage/twiage-config",
     "uuid": "3.0.1",
     "winston": "2.3.0"
   },
