@@ -1,0 +1,6 @@
+{
+  "verbose": true,
+  "testMatch": [
+    "**/__unit-tests__/**/*.js?(x)"
+  ]
+}
