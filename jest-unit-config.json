@@ -1,6 +1,6 @@
 {
   "verbose": true,
   "testMatch": [
-    "**/__unit-tests__/**/*.js?(x)"
+    "**/__unit-test__/**/*.js?(x)"
   ]
 }
