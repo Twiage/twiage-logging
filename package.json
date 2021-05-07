@@ -27,7 +27,7 @@
     "babel-preset-es2015": "*",
     "eslint": "*",
     "eslint-plugin-import": "*",
-    "handlebars": "^4.5.3",
+    "handlebars": "^4.7.7",
     "jest": "*"
   },
   "author": "Twiage",
