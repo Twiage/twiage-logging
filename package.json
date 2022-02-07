@@ -1,7 +1,7 @@
 {
   "name": "twiage-logging",
   "version": "0.1.0",
-  "description": "Twiage Comming logging for JS projects",
+  "description": "Twiage Common logging for JS projects",
   "main": "index.js",
   "scripts": {
     "test": "jest --config jest-unit-config.json"
@@ -12,19 +12,12 @@
   },
   "dependencies": {
     "continuation-local-storage": "3.2.0",
-    "global-request-logger": "^0.1.1",
     "stack-trace": "0.0.9",
     "twiage-config": "git+https://git:2b523cb5d2e1d7f8e3fd04f756c7ba86bc1ff334@github.com/twiage/twiage-config",
     "uuid": "3.0.1",
     "winston": "2.3.0"
   },
-  "babel": {
-    "presets": [
-      "es2015"
-    ]
-  },
   "devDependencies": {
-    "babel-preset-es2015": "*",
     "eslint": "*",
     "eslint-plugin-import": "*",
     "handlebars": "^4.5.3",
