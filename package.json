@@ -11,17 +11,22 @@
     "url": "git@github.com:Twiage/twiage-logging.git"
   },
   "dependencies": {
-    "continuation-local-storage": "3.2.0",
     "stack-trace": "0.0.9",
-    "twiage-config": "https://github.com/Twiage/twiage-config.git#b591335b48d1f751c92e1ed2d00a9ff3c5b43b25",
-    "uuid": "3.0.1",
+    "twiage-config": "https://github.com/Twiage/twiage-config.git#7fa2b88fef65458661bda6a380d0eaffed7e1ff1",
+    "uuid": "^14.0.1",
     "winston": "2.3.0"
   },
   "devDependencies": {
-    "eslint": "*",
-    "eslint-plugin-import": "*",
-    "handlebars": "^4.5.3",
-    "jest": "*"
+    "eslint": "^10.8.0",
+    "jest": "^30.2.0"
+  },
+  "resolutions": {
+    "jest/**/test-exclude/minimatch": "^3.1.4",
+    "jest/**/test-exclude/**/brace-expansion": "^1.1.18",
+    "jest/**/cross-spawn": "^7.0.6",
+    "jest/**/load-nyc-config/**/js-yaml": "^3.15.1",
+    "jest/**/anymatch/**/picomatch": "^2.3.2",
+    "jest/**/make-dir/**/semver": "^6.3.1"
   },
   "author": "Twiage",
   "license": "UNLICENSED"
