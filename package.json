@@ -23,7 +23,6 @@
   "dependencies": {
     "stack-trace": "0.0.9",
     "twiage-config": "https://github.com/Twiage/twiage-config.git#7fa2b88fef65458661bda6a380d0eaffed7e1ff1",
-    "uuid": "^14.0.1",
     "winston": "2.3.0"
   },
   "devDependencies": {
