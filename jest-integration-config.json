@@ -1,0 +1,9 @@
+{
+  "verbose": true,
+  "testMatch": [
+    "**/__integration-test__/**/*.test.js"
+  ],
+  "setupFiles": [
+    "<rootDir>/lib/__integration-test__/setup.js"
+  ]
+}

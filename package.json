@@ -14,7 +14,9 @@
     "node": ">=18"
   },
   "scripts": {
-    "test": "jest --config jest-unit-config.json"
+    "test": "npm run test:unit && npm run test:integration",
+    "test:unit": "jest --config jest-unit-config.json",
+    "test:integration": "jest --config jest-integration-config.json"
   },
   "repository": {
     "type": "git",

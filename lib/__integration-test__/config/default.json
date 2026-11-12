@@ -1,0 +1,22 @@
+{
+  "twiage": {
+    "logging": {
+      "namespace": "twiage-logging",
+      "meta": {
+        "service": "twiage-logging-integration"
+      },
+      "headers": ["x-request-id", "x-organization-id"],
+      "exitOnError": false,
+      "transports": [
+        {
+          "type": "Memory",
+          "opts": {
+            "level": "debug",
+            "json": true,
+            "stringify": true
+          }
+        }
+      ]
+    }
+  }
+}
